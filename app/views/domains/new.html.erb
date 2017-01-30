@@ -1,0 +1,15 @@
+</br></br></br></br>
+<%= form_tag(domains_path, :multipart => true) do%>
+<div class="row">
+<div class="jumbotron">
+	<div class="container">
+  <h1>Start publishing your life stories at your domain!</h1>
+  <div class="col-lg-6">
+  	  <%= file_field_tag :photo %>
+      <%= text_field_tag :name ,nil, :placeholder => 'Enter your domain...' %>
+       <%= submit_tag "Go!!" %>
+  </div>
+</div>
+</div>
+</div>
+<% end %>

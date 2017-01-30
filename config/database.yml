@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: the_woman_story_development
+  pool: 5
+  username: neeraj
+  password: neerajneha30may
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: the_woman_story_test
+  pool: 5
+  username: neeraj
+  password: neerajneha30may
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: the_woman_story_production
+  pool: 5
+  username: neeraj
+  password: neerajneha30may
